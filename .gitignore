@@ -1,0 +1,69 @@
+# Python build files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+.venv/
+env/
+venv/
+
+# Poetry files
+poetry.lock
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# pre-commit
+.pre-commit-config.yaml~
+.pre-commit/
+*.pyo
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Log files
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing files
+coverage/
+*.cover
+test-results/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# System-specific
+*.out
+*.exe
+*.dll
+*.com
+*.class
+
+# Pyinstaller
+*.spec
+
+# Pipenv
+Pipfile
+Pipfile.lock
